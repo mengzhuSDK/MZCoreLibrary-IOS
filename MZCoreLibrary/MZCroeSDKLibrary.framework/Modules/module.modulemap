@@ -1,0 +1,6 @@
+framework module MZCroeSDKLibrary {
+  umbrella header "MZCroeSDKLibrary.h"
+
+  export *
+  module * { export * }
+}
