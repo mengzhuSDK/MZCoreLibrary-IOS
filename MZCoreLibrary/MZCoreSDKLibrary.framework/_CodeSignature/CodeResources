@@ -380,6 +380,46 @@
 		<data>
 		9WzFC/cCXdvX9WhjMWyx3FHutbI=
 		</data>
+		<key>MZRefresh.bundle/arrow@2x.png</key>
+		<data>
+		5ZENFuDcEgHjDuL7tn7h97HeuSE=
+		</data>
+		<key>MZRefresh.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KQHJxiCxikpJx3GEz3x/uldyTBk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>MZRefresh.bundle/ko.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HlQTgD96vdwvNFwCCXYwug5vWq0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>MZRefresh.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lDdgjIeTCa47NGksVsB2vn4lz84=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>MZRefresh.bundle/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hjIzn4qLs8xLMnelxOeMouDSaZY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<data>
 		AHrhOhcvIJdKr0dEhnCvwN5wsys=
@@ -1413,6 +1453,69 @@
 			<data>
 			XctYWiiro+8jvObwCprtZjxv08Sk/OeFmQX9QeUL1ro=
 			</data>
+		</dict>
+		<key>MZRefresh.bundle/arrow@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5ZENFuDcEgHjDuL7tn7h97HeuSE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5pZTVM6xOoz5TmObI4Nq10XxwWgOr9sM2We8r8FZAYg=
+			</data>
+		</dict>
+		<key>MZRefresh.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KQHJxiCxikpJx3GEz3x/uldyTBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			uH1w/EXy8xgq9Jt5Z/RASzrSw17Jg6sWdycV360D1WA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>MZRefresh.bundle/ko.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HlQTgD96vdwvNFwCCXYwug5vWq0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xlf+q1uxWuvZYubG/vIYmehX5T7lPlNQUb+PHjh0pBk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>MZRefresh.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lDdgjIeTCa47NGksVsB2vn4lz84=
+			</data>
+			<key>hash2</key>
+			<data>
+			a3Nr8jJOHvrMhpMVoYI5sK7Hzgx7Fa1nywyN2DIUVzE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>MZRefresh.bundle/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hjIzn4qLs8xLMnelxOeMouDSaZY=
+			</data>
+			<key>hash2</key>
+			<data>
+			AteA9vw+ofnahB0RNbonkmUulQC5Co8UvNf/1MwU7a4=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>

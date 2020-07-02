@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true  
   s.ios.deployment_target = '8.2'
   s.vendored_frameworks = 'MZCoreLibrary/MZCoreSDKLibrary.framework'
+  s.resource="MZCoreLibrary/MZRefresh.bundle"
   end
