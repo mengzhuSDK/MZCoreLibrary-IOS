@@ -17,6 +17,7 @@
 
 #define MZVAR_offset            @"offset"
 #define MZVAR_limit             @"limit"
+#define MZVAR_sort             @"sort"
 
 //设备请求参数
 #define MZVAR_unique_id         @"unique_id"

@@ -7,6 +7,7 @@
 //
 
 #import <AFNetworking/AFNetworking.h>
+#import "MZBaseNetModel.h"
 
 typedef void(^ApiCompletion)(NSURLSessionDataTask *task, NSDictionary *aResponse, NSError* anError);
 typedef void (^UploadProgress)(long long sent, long long expectSend);
