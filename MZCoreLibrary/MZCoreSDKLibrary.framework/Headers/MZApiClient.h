@@ -1,19 +1,19 @@
 //
 //  MZApiClient.h
-//  MengZhu
+//  MZCoreSDKLibrary
 //
-//  Created by ZhangHeng on 15/5/22.
-//  Copyright (c) 2015年 MengZhu. All rights reserved.
+//  Created by 李风 on 2020/8/22.
+//  Copyright © 2020 mengzhu.com. All rights reserved.
 //
 
-#import <AFNetworking/AFNetworking.h>
-#import "MZBaseNetModel.h"
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^ApiCompletion)(NSURLSessionDataTask *task, NSDictionary *aResponse, NSError* anError);
 typedef void (^UploadProgress)(long long sent, long long expectSend);
 
-
-@interface MZApiClient : AFHTTPSessionManager
+@interface MZApiClient : NSObject
 
 +(id)sharedClient;
 
@@ -89,4 +89,9 @@ typedef void (^UploadProgress)(long long sent, long long expectSend);
 //仅用于处理请求失败时，查看返回的实际数据问题
 +(NSString *)getReturnStringWithError:(NSError *)error;
 
+//设置超时时间
+- (void)setRequestTimeoutInterval:(double)time;
+
 @end
+
+NS_ASSUME_NONNULL_END

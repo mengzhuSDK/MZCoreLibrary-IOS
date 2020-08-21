@@ -48,5 +48,8 @@
                                            imagesArray:(NSArray *)imagesArray
                                          andParameters:(NSDictionary *)parameters progress:(UploadProgress)progress
                                         withCompletion:(ApiCompletion)completion;
+
+//设置超时时间
+- (void)setRequestTimeoutInterval:(double)time;
 @end
 
