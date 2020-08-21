@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mengzhuSDK/MZCoreLibrary-IOS.git", :tag => "#{s.version}" }
   s.requires_arc = true  
   s.ios.deployment_target = '9.0'
-  s.vendored_frameworks = 'MZCoreLibrary/MZCoreSDKLibrary.framework'
   s.frameworks = 'Foundation', 'AVFoundation', 'QuartzCore', 'OpenGLES', 'CoreVideo', 'CoreMedia', 'AssetsLibrary', 'UIKit', 'Security', 'JavaScriptCore', 'WebKit'
   s.libraries   = 'bz2', 'bz2.1.0', 'z.1.2.5', 'stdc++.6.0.9', 'icucore', 'c++', 'z', 'xml2'
-  s.resource="MZCoreLibrary/MZCoreLibrary.bundle"
+  s.vendored_frameworks = 'MZCoreLibrary/MZCoreSDKLibrary.framework'
+  s.resource="MZCoreLibrary/MZCoreSDKLibrary.bundle"
   s.dependency 'Masonry'
   s.dependency 'SDWebImage','~> 4.0.0'
   s.dependency 'MJRefresh','~> 3.1.12'
