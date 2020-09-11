@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MZActivityComment.h</key>
 		<data>
-		RzF5C2NIC+C1MV3msg45zYrwVdU=
+		bNxIPQBcZlVM0n9mRksu6fS38EE=
 		</data>
 		<key>Headers/MZActivityConfig.h</key>
 		<data>
@@ -118,15 +118,19 @@
 		</data>
 		<key>Headers/MZConstantConfig.h</key>
 		<data>
-		nSwSA6+W5TC1HSGCOLy7iyYcw7o=
+		APEGmegrOselLqATS8kRPJnL/5Y=
 		</data>
 		<key>Headers/MZCoreNetOperate.h</key>
 		<data>
-		eabmM7aPbTeheXjicSRNN8Ufuhc=
+		583TZg3Kq9NMIBdF5i6tqkXncZk=
 		</data>
 		<key>Headers/MZCoreSDKLibrary.h</key>
 		<data>
-		nBeXk5lSzQApUaDJUPpmRoxik8Y=
+		InFlFLr5iMY6fvdi1zHhI3K7mXg=
+		</data>
+		<key>Headers/MZCoreSDKNetWork.h</key>
+		<data>
+		Z7hhjd9qxrfCkyyEOgXMVRBU854=
 		</data>
 		<key>Headers/MZCreatPredictTipsModel.h</key>
 		<data>
@@ -362,7 +366,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NIjV7o5fyA4eZfaSNET5VgQtenw=
+		FCxIJeDguV9SI3FuAMq3UAX4uQ4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -408,11 +412,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RzF5C2NIC+C1MV3msg45zYrwVdU=
+			bNxIPQBcZlVM0n9mRksu6fS38EE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ggAYgGkozAMJlVcpS2VGCycag2be7+ZAKty/Fgg55mE=
+			c9U+c5Iqs9qDW4AaKkboS0zqLlhiQI23Dq2xCmoKCyw=
 			</data>
 		</dict>
 		<key>Headers/MZActivityConfig.h</key>
@@ -683,33 +687,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nSwSA6+W5TC1HSGCOLy7iyYcw7o=
+			APEGmegrOselLqATS8kRPJnL/5Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			CWLU4yER+vc5tHLLiKzGgqNhiacNAcnMRYKEK64IYF4=
+			x6kM369sKN2L+dJi2cAU0WJ7UA7wVM3kEHLjGpk6+to=
 			</data>
 		</dict>
 		<key>Headers/MZCoreNetOperate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eabmM7aPbTeheXjicSRNN8Ufuhc=
+			583TZg3Kq9NMIBdF5i6tqkXncZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			cVT4Npf7viUFpYYp2ioFCjVEyQQBAlHRk/GyXNIU6q0=
+			y2SzpMOXfwkREyiI/aJco0ywEyBdkpE1kXKJooXbHbc=
 			</data>
 		</dict>
 		<key>Headers/MZCoreSDKLibrary.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nBeXk5lSzQApUaDJUPpmRoxik8Y=
+			InFlFLr5iMY6fvdi1zHhI3K7mXg=
 			</data>
 			<key>hash2</key>
 			<data>
-			aOunYmM5ZqRXFxTTqyf099GiWAuSA5WXXQQQW1VXZ/o=
+			yEKC5QvsRkKq/qQUyod/RAhHus/bp4jdu6RySCbeS/w=
+			</data>
+		</dict>
+		<key>Headers/MZCoreSDKNetWork.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z7hhjd9qxrfCkyyEOgXMVRBU854=
+			</data>
+			<key>hash2</key>
+			<data>
+			mAAvbQ0pBNTj+/awzzMSWgWFj+z2vWG512f0yLsStUs=
 			</data>
 		</dict>
 		<key>Headers/MZCreatPredictTipsModel.h</key>

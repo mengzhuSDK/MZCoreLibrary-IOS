@@ -33,7 +33,7 @@
 
 #pragma mark - network
 #import "MZApiClient.h"
-
+#import "MZCoreSDKNetWork.h"
 #import "MZStatisticsStystem.h"
 #import "NetworkPathsCommon.h"
 
