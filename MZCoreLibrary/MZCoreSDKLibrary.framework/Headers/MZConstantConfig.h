@@ -5,6 +5,7 @@
 //  Created by sunxianhao on 2020/6/28.
 //  Copyright © 2020 mengzhu.com. All rights reserved.
 //
+#import "MZBaseGlobalTools.h"
 
 #ifndef MZConstantConfig_h
 #define MZConstantConfig_h

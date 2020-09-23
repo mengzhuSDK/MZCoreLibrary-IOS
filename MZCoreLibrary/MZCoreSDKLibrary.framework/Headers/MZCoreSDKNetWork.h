@@ -14,7 +14,6 @@
 #ifndef TEST_SERVER
 
 #define MZNET_SERVICEURL    @"https://api-app.zmengzhu.com/service/info?"
-#define MZAPP_VER           MZ_APP_ver
 
 //正式环境
 #define MZ_URL_Prefix       @"https://api.zmengzhu.com"
