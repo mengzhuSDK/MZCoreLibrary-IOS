@@ -34,10 +34,10 @@
 +(BOOL)removeLoginTokenWithUniqueId:(NSString *)uniqueId;
 
 
-/**
- *  获取当前用户基本信息
- */
-+(void)getCurrentUserProfileSuccess:(void(^)(void))success failure:(void (^)(NSError *error))failure;
+///**
+// *  获取当前用户基本信息
+// */
+//+(void)getCurrentUserProfileSuccess:(void(^)(void))success failure:(void (^)(NSError *error))failure;
 
 ///**
 // *  修改用户基本信息

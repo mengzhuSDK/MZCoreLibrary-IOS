@@ -1,24 +1,30 @@
 //
-//  MZCommentConfig.h
-//  mengzhuIOS
+//  MZLogConfig.h
+//  MZCoreSDKLibrary
 //
-//  Created by 孙显灏 on 2019/6/20.
-//  Copyright © 2019 孙显灏. All rights reserved.
+//  Created by 李风 on 2020/11/10.
+//  Copyright © 2020 mengzhu.com. All rights reserved.
 //
 
-#ifndef MZLogConfig_h
-#define MZLogConfig_h
+#import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
 
-#ifdef DEBUG // 调试状态, 打开LOG功能
-#define NSLog(...) NSLog(__VA_ARGS__)
-#else // 发布状态, 关闭LOG功能
-#define NSLog(...)
-#endif
+/**
+ *  自定义Log，可配置开关（用于替换NSLog）
+ */
+#define MZLog(format,...) MZ_CustomLog(__FUNCTION__,__LINE__,format,##__VA_ARGS__)
 
-#ifdef DEBUG // 调试状态, 打开LOG功能
-# define MZLog(fmt, ...)   NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
-#else  // 发布状态, 关闭LOG功能
-# define MZLog(...);
-#endif /* MZCommentConfig_h */
-#endif
+void MZ_CustomLog(const char *func, int lineNumber, NSString *format, ...);
+
+@interface MZLogConfig : NSObject
+
+/// 设置是否打印日志，默认关闭
++ (void)setLogEnable:(BOOL)logEnable;
+
+/// 是否开启了 Log 输出
++ (BOOL)logEnable;
+
+@end
+
+NS_ASSUME_NONNULL_END

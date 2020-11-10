@@ -7,7 +7,7 @@
 
 // 日志输出
 #ifdef DEBUG
-#define MZRefreshLog(...) NSLog(__VA_ARGS__)
+#define MZRefreshLog(...) MZLog(__VA_ARGS__)
 #else
 #define MZRefreshLog(...)
 #endif
