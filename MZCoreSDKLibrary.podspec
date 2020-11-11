@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.authors      = "Mengzhu"
   s.name         = "MZCoreSDKLibrary"
-  s.version      = "2.6.0"
+  s.version      = "2.6.1"
   s.summary      = "MZCroeSDKLibrary iOS SDK"
   s.description  = "Provides the user to push the stream and the playback function"
   s.homepage     = "http://www.zmengzhu.com"
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.libraries   = 'bz2', 'bz2.1.0', 'z.1.2.5', 'icucore', 'c++', 'z', 'xml2'
   s.vendored_frameworks = 'MZCoreLibrary/MZCoreSDKLibrary.framework'
   s.resource="MZCoreLibrary/MZCoreSDKLibrary.bundle"
+  s.source_files = 'MZCoreHeader/*'
   s.dependency 'Masonry'
   s.dependency 'SDWebImage','>= 4.0.0'
   s.dependency 'MJRefresh','>= 3.1.12'
