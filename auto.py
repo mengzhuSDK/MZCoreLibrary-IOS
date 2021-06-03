@@ -27,7 +27,7 @@ push_allow_warnings = "--allow-warnings"
 def podCommandEdit():
     global lib_command
     global pod_push_command
-    source_suffix = 'https://github.com/CocoaPods/Specs.git --allow-warnings'
+    source_suffix = 'https://github.com/CocoaPods/Specs.git --allow-warnings --skip-import-validation'
     lib_command = 'pod lib lint --sources='
     pod_push_command = 'pod trunk push ' + ' ' + podspec_file_name + ' ' + push_allow_warnings
     if len(sources) > 0:
