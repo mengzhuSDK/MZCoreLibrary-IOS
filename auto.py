@@ -20,14 +20,14 @@ lib_command = ""
 pod_push_command = ""
 spec_file_path = "./" + podspec_file_name
 find_version_flag = False
-push_allow_warnings = "--allow-warnings"
+push_allow_warnings = "--allow-warnings --skip-import-validation"
 
 
 
 def podCommandEdit():
     global lib_command
     global pod_push_command
-    source_suffix = 'https://github.com/CocoaPods/Specs.git --allow-warnings --skip-import-validation'
+    source_suffix = 'https://github.com/CocoaPods/Specs.git ' + ' ' + push_allow_warnings
     lib_command = 'pod lib lint --sources='
     pod_push_command = 'pod trunk push ' + ' ' + podspec_file_name + ' ' + push_allow_warnings
     if len(sources) > 0:
